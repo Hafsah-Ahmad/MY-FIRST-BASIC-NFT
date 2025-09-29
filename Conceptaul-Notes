@@ -1,0 +1,21 @@
+An NFT is basically:
+            A unique digital item (like art, music, video, in-game skin, land in a virtual world, etc.) with proof of ownership recorded on the blockchain.
+
+Why do we use NFTs?
+           -Ownership → You can prove you own something digital.
+           -Scarcity → Creators can make only 1 or a limited number (like 10) NFTs, which makes them rare.
+           -Tradability → You can buy, sell, or trade NFTs in marketplaces (like OpenSea).
+           -Programmability → NFTs can have special rules (royalties to the artist on every resale, unlockable content, in-game utilities).
+
+Where are NFTs used?
+          -Digital Art → Artists sell unique digital artworks.
+          -Gaming → Skins, weapons, land, or characters can be NFTs.
+          -Collectibles → Like trading cards or rare digital items.
+          -Music → Songs or albums can be released as NFTs.
+          -Virtual Real Estate → In metaverse worlds like Decentraland.
+          -Identity & Certificates → Diplomas, tickets, or ID could be NFTs in the future.
+
+How are NFTs stored?
+          -The token (ownership proof) is stored on the blockchain.
+          -The digital file (art, music, etc.) is usually stored on IPFS (InterPlanetary File System) or another decentralized storage, and the token points to it.
+
