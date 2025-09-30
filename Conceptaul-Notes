@@ -19,3 +19,8 @@ How are NFTs stored?
           -The token (ownership proof) is stored on the blockchain.
           -The digital file (art, music, etc.) is usually stored on IPFS (InterPlanetary File System) or another decentralized storage, and the token points to it.
 
+Technical Facts=
+          -Each NFT has a unique token ID and metadata that distinguishes it.
+          -NFTs follow standards such as ERC-721 (single unique tokens) and ERC-1155 (multi-token standard).
+          -The metadata of an NFT is usually stored in JSON format.
+
