@@ -31,9 +31,6 @@ contract HafsasNFT {
     // Base URI for metadata (customize for IPFS or server)
     string private _baseTokenURI = "ipfs://yourBaseCID/";
 
-    // ============================================================
-    // EVENTS (ERC-721 Standard)
-    // ============================================================
     event Transfer(address indexed from, address indexed to, uint256 indexed tokenId);
     event Approval(address indexed owner, address indexed approved, uint256 indexed tokenId);
     event ApprovalForAll(address indexed owner, address indexed operator, bool approved);
