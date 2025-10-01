@@ -10,15 +10,9 @@ contract HafsasNFT {
     uint256 public constant RESERVED_TOKENS = 50;    // Owner-only reserved mints
     uint256 public constant START_TOKEN_ID = 1;      // Token IDs start from 1
 
-    // ============================================================
-    // ERC-721 Standard Required Variables
-    // ============================================================
     string public name = "Hafsa's1stNFT";   // Collection Name
     string public symbol = "HAFSO";         // Collection Symbol
 
-    // ============================================================
-    // STORAGE
-    // ============================================================
     address public contractOwner;
     uint256 private _totalSupply; // Tracks minted supply including reserved
     uint256 private _reservedMinted; // Tracks reserved supply usage
