@@ -35,9 +35,6 @@ contract HafsasNFT {
     event Approval(address indexed owner, address indexed approved, uint256 indexed tokenId);
     event ApprovalForAll(address indexed owner, address indexed operator, bool approved);
 
-    // ============================================================
-    // MODIFIER
-    // ============================================================
     modifier onlyOwner() {
         require(msg.sender == contractOwner, "Not contract owner");
         _;
