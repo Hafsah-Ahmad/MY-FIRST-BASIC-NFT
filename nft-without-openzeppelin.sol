@@ -1,15 +1,10 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 
-/// @title Hafsa's First NFT Collection (Custom ERC-721)
-/// @notice This is a simplified ERC-721 NFT contract written without OpenZeppelin,
-///         with gas optimization using constants where possible.
 
 contract HafsasNFT {
-    // ============================================================
-    // FIXED PROJECT SETTINGS (constants for gas saving)
-    // ============================================================
-    uint256 public constant MAX_SUPPLY = 500;        // Maximum total NFTs
+    
+     uint256 public constant MAX_SUPPLY = 500;        // Maximum total NFTs
     uint256 public constant MINT_PRICE = 0.03 ether; // Mint price per NFT
     uint256 public constant PER_WALLET_LIMIT = 3;    // Max NFTs per wallet
     uint256 public constant RESERVED_TOKENS = 50;    // Owner-only reserved mints
