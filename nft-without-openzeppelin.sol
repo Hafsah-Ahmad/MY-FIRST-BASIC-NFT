@@ -64,9 +64,6 @@ contract HafsasNFT {
         return string(abi.encodePacked(_baseTokenURI, uint2str(tokenId), ".json"));
     }
 
-    // ============================================================
-    // MINTING
-    // ============================================================
     function mint(uint256 tokenId) public payable {
         require(tokenId >= START_TOKEN_ID && tokenId < START_TOKEN_ID + MAX_SUPPLY, "Invalid tokenId");
         require(_owners[tokenId] == address(0), "Token already minted");
