@@ -106,9 +106,6 @@ contract HafsasNFT {
         emit Transfer(from, to, tokenId);
     }
 
-    // ============================================================
-    // APPROVALS
-    // ============================================================
     function approve(address to, uint256 tokenId) public {
         address owner = ownerOf(tokenId);
         require(to != owner, "Approval to current owner");
