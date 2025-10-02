@@ -44,10 +44,7 @@ contract HafsasNFT {
         contractOwner = msg.sender; // set deployer as owner
     }
 
-    // ============================================================
-    // VIEW FUNCTIONS
-    // ============================================================
-    function totalSupply() public view returns (uint256) {
+     function totalSupply() public view returns (uint256) {
         return _totalSupply;
     }
 
