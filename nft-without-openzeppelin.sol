@@ -139,9 +139,6 @@ contract HafsasNFT {
         return (spender == owner || getApproved(tokenId) == spender || isApprovedForAll(owner, spender));
     }
 
-    // ============================================================
-    // WITHDRAWAL
-    // ============================================================
     function withdraw() public onlyOwner {
         payable(contractOwner).transfer(address(this).balance);
     }
