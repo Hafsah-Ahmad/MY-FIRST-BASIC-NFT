@@ -40,9 +40,6 @@ contract HafsasNFT {
         _;
     }
 
-    // ============================================================
-    // CONSTRUCTOR
-    // ============================================================
     constructor() {
         contractOwner = msg.sender; // set deployer as owner
     }
