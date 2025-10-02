@@ -143,9 +143,6 @@ contract HafsasNFT {
         payable(contractOwner).transfer(address(this).balance);
     }
 
-    // ============================================================
-    // HELPER (convert uint to string)
-    // ============================================================
     function uint2str(uint256 _i) internal pure returns (string memory _uintAsString) {
         if (_i == 0) {
             return "0";
