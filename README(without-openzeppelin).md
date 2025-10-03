@@ -38,3 +38,6 @@ contracts/HafsasNFT.sol
 
 4. Compile
 npx hardhat compile
+
+License=
+This project is licensed under the MIT License.
