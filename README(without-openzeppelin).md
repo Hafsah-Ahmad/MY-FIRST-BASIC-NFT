@@ -23,8 +23,8 @@ Contract Details=
 
 Getting Started=
 1. Clone the repository
-git clone https://github.com/y/hafsa-nft.git
-cd hafsa-nft
+git clone https://github.com/Hafsah-Ahmad/MY-FIRST-BASIC-NFT
+cd MY-FIRST-BASIC-NFT
 
 2. Install dependencies (Hardhat project)
 npm init -y
