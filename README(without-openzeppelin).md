@@ -21,3 +21,23 @@ Contract Details=
 -Reserved Tokens for Owner: 50
 -Start Token ID: 1
 
+Getting Started=
+1. Clone the repository
+git clone https://github.com/y/hafsa-nft.git
+cd hafsa-nft
+
+2. Install dependencies (Hardhat project)
+npm init -y
+npm install --save-dev hardhat
+npx hardhat
+
+
+Choose Create a JavaScript project.
+
+3. Add the contract
+
+Save the contract in:
+contracts/HafsasNFT.sol
+
+4. Compile
+npx hardhat compile
