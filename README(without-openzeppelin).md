@@ -30,12 +30,9 @@ cd MY-FIRST-BASIC-NFT
 npm init -y
 npm install --save-dev hardhat
 npx hardhat
-
-
-Choose Create a JavaScript project.
+-Choose Create a JavaScript project.
 
 3. Add the contract
-
 Save the contract in:
 contracts/HafsasNFT.sol
 
