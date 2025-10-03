@@ -41,3 +41,8 @@ npx hardhat compile
 
 License=
 This project is licensed under the MIT License.
+
+Author=
+Hafsa Ahmad
+Blockchain Developer (Smart Contracts Specialist)
+Email: hafsa.ahmad043@gmail.com
